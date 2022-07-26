@@ -1,11 +1,20 @@
 {
   "name": "sample-node-project",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Sample Node.js Project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "Adem Cemil YALCIN",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koushikg14/sample-node-project.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
+  }
 }
+
